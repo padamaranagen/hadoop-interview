@@ -1,0 +1,70 @@
+1.	IBM and ________ have announced a major initiative to use Hadoop to support university courses in distributed computer programming.
+a) Google Latitude
+b) Android (operating system)
+c) Google Variations
+d) Google
+Answer:d
+Explanation:Google and IBM Announce University Initiative to Address Internet-Scale.
+2.	 Point out the correct statement :
+a) Hadoop is an ideal environment for extracting and transforming small volumes of data
+b) Hadoop stores data in HDFS and supports data compression/decompression
+c) The Giraph framework is less useful than a MapReduce job to solve graph and machine learning
+d) None of the mentioned
+Answer:b
+Explanation:Data compression can be achieved using compression algorithms like bzip2, gzip, LZO, etc. 
+Different algorithms can be used in different scenarios based on their capabilities.
+3.	What license is Hadoop distributed under ?
+a) Apache License 2.0
+b) Mozilla Public License
+c) Shareware
+d) Commercial
+Answer:a
+4.	Explanation:Hadoop is Open Source, released under Apache 2 license. Sun also has the Hadoop Live CD ________ project, which allows running a fully functional Hadoop cluster using a live CD.
+a) OpenOffice.org
+b) OpenSolaris
+c) GNU
+d) Linux
+Answer:b
+Explanation:The OpenSolaris Hadoop LiveCD project built a bootable CD-ROM image.
+5.	Which of the following genres does Hadoop produce ?
+a) Distributed file system
+b) JAX-RS
+c) Java Message Service
+d) Relational Database Management System
+Answer:a
+Explanation:The Hadoop Distributed File System (HDFS) is designed to store very large data sets reliably, and to stream those data sets at high bandwidth to user.
+6.	What was Hadoop written in ?
+a) Java (software platform)
+b) Perl
+c) Java (programming language)
+d) Lua (programming language)
+Answer:c
+Explanation:The Hadoop framework itself is mostly written in the Java programming language, with some native code in C and command line utilities written as shell-scripts.
+7.	Which of the following platforms does Hadoop run on ?
+a) Bare metal
+b) Debian
+c) Cross-platform
+d) Unix-like
+Answer:c
+Explanation:Hadoop has support for cross platform operating system.
+8.	Hadoop achieves reliability by replicating the data across multiple hosts, and hence does not require ________ storage on hosts.
+a) RAID
+b) Standard RAID levels
+c) ZFS
+d) Operating system
+Answer:a
+Explanation:With the default replication value, 3, data is stored on three nodes: two on the same rack, and one on a different rack.
+9.	Below the file systems comes the ________ engine, which consists of one Job Tracker, to which client applications submit MapReduce jobs.
+a) MapReduce
+b) Google
+c) Functional programming
+d) Facebook
+Answer:a
+Explanation:MapReduce engine uses to distribute work around a cluster.
+10.	The Hadoop list includes the HBase database, the Apache Mahout ________ system, and matrix operations.
+a) Machine learning
+b) Pattern recognition
+c) Statistical classification
+d) Artificial intelligence
+Answer:a
+Explanation:The Apache Mahout project’s goal is to build a scalable machine learning tool.

@@ -1,0 +1,70 @@
+1.	As companies move past the experimental phase with Hadoop, many cite the need for additional capabilities, including:
+a) Improved data storage and information retrieval
+b) Improved extract, transform and load features for data integration
+c) Improved data warehousing functionality
+d) Improved security, workload management and SQL support
+Answer:d
+Explanation:Adding security to Hadoop is challenging because all the interactions do not follow the classic client- server pattern.
+2.	Point out the correct statement :
+a) Hadoop do need specialized hardware to process the data
+b) Hadoop 2.0 allows live stream processing of real time data
+c) In Hadoop programming framework output files are divided in to lines or records
+d) None of the mentioned
+Answer:b
+3.	Explanation:Hadoop batch processes data distributed over a number of computers ranging in 100s and 1000s.
+According to analysts, for what can traditional IT systems provide a foundation when they’re integrated with big data technologies like Hadoop ?
+a) Big data management and data mining
+b) Data warehousing and business intelligence
+c) Management of Hadoop clusters
+d) Collecting and storing unstructured data
+Answer:a
+Explanation:Data warehousing integrated with Hadoop would give better understanding of data.
+4.	Hadoop is a framework that works with a variety of related tools. Common cohorts include:
+a) MapReduce, Hive and HBase
+b) MapReduce, MySQL and Google Apps
+c) MapReduce, Hummer and Iguana
+d) MapReduce, Heron and Trumpet
+Answer:a
+Explanation:To use Hive with HBase you’ll typically want to launch two clusters, one to run HBase and the other to run Hive.
+5.	Point out the wrong statement :
+a) Hardtop’s processing capabilities are huge and its real advantage lies in the ability to process terabytes & petabytes of data
+b) Hadoop uses a programming model called “MapReduce”, all the programs should confirms to this model in order to work on Hadoop platform
+c) The programming model, MapReduce, used by Hadoop is difficult to write and test
+d) All of the mentioned
+Answer:c
+Explanation:The programming model, MapReduce, used by Hadoop is simple to write and test.
+6.	What was Hadoop named after?
+a) Creator Doug Cutting’s favorite circus act
+b) Cutting’s high school rock band
+c) The toy elephant of Cutting’s son
+d) A sound Cutting’s laptop made during Hadoop’s development
+Answer:c
+Explanation:Doug Cutting, Hadoop’s creator, named the framework after his child’s stuffed toy elephant.
+7.	All of the following accurately describe Hadoop, EXCEPT:
+a) Open source
+b) Real-time
+c) Java-based
+d) Distributed computing approach
+Answer:b
+Explanation:Apache Hadoop is an open-source software framework for distributed storage and distributed processing of Big Data on clusters of commodity hardware.
+8.	 __________ can best be described as a programming model used to develop Hadoop-based applications that can process massive amounts of data.
+a) MapReduce
+b) Mahout
+c) Oozie
+d) All of the mentioned
+Answer:a
+Explanation:MapReduce is a programming model and an associated implementation for processing and generating large data sets with a parallel, distributed algorithm.
+9.	 __________ has the world’s largest Hadoop cluster.
+a) Apple
+b) Datamatics
+c) Facebook
+d) None of the mentioned
+Answer:c
+Explanation:Facebook has many Hadoop clusters, the largest among them is the one that is used for Data warehousing.
+10.	Facebook Tackles Big Data With _______ based on Hadoop.
+a) ‘Project Prism’
+b) ‘Prism’
+c) ‘Project Big’
+d) ‘Project Data’
+Answer:a
+Explanation:Prism automatically replicates and moves data wherever it’s needed across a vast network of computing facilities.

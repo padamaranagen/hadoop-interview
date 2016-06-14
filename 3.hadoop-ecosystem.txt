@@ -1,0 +1,69 @@
+1.	________ is a platform for constructing data flows for extract, transform, and load (ETL) processing and analysis of large datasets.
+a) Pig Latin
+b) Oozie
+c) Pig
+d) Hive
+Answer:c
+Explanation:Apache Pig is a platform for analyzing large data sets that consists of a high-level language for expressing data analysis programs.
+2.	Hive is not a relational database, but a query engine that supports the parts of SQL specific to querying data
+b) Hive is a relational database with SQL support
+c) Pig is a relational database with SQL support
+d) All of the mentioned
+Answer:a
+Explanation:Hive is a SQL-based data warehouse system for Hadoop that facilitates data summarization, ad hoc queries, and the analysis of large datasets stored in Hadoop-compatible file systems.
+3.	_________ hides the limitations of Java behind a powerful and concise Clojure API for Cascading.
+a) Scalding
+b) HCatalog
+c) Cascalog
+d) All of the mentioned
+Answer:c
+Explanation:Cascalog also adds Logic Programming concepts inspired by Datalog. Hence the name “Cascalog” is a contraction of Cascading and Datalog.
+4.	Hive also support custom extensions written in :
+a) C#
+b) Java
+c) C
+d) C++ 
+Answer:b
+Explanation:Hive also support custom extensions written in Java, including user-defined functions (UDFs) and serializer-deserializers for reading and optionally writing custom formats.
+5.	Point out the wrong statement :
+a) Elastic MapReduce (EMR) is Facebook’s packaged Hadoop offering
+b) Amazon Web Service Elastic MapReduce (EMR) is Amazon’s packaged Hadoop offering
+c) Scalding is a Scala API on top of Cascading that removes most Java boilerplate
+d) All of the mentioned
+Answer:a
+Explanation:Rather than building Hadoop deployments manually on EC2 (Elastic Compute Cloud) clusters, users can spin up fully configured Hadoop installations using simple invocation commands, either through the AWS Web Console or through command-line tools.
+6.	 ________ is the most popular high-level Java API in Hadoop Ecosystem
+a) Scalding
+b) HCatalog
+c) Cascalog
+d) Cascading
+Answer:d
+Explanation:Cascading hides many of the complexities of MapReduce programming behind more intuitive pipes and data flow abstractions.
+7.	___________ is general-purpose computing model and runtime system for distributed data analytics.
+a) Mapreduce
+b) Drill
+c) Oozie
+d) None of the mentioned
+Answer:a
+Explanation:Mapreduce provides a flexible and scalable foundation for analytics, from traditional reporting to leading-edge machine learning algorithms.
+8.	The Pig Latin scripting language is not only a higher-level data flow language but also has operators similar to :
+a) SQL
+b) JSON
+c) XML
+d) All of the mentioned
+Answer:a
+Explanation:Pig Latin, in essence, is designed to fill the gap between the declarative style of SQL and the low-level procedural style of MapReduce.
+9.	 _______ jobs are optimized for scalability but not latency.
+a) Mapreduce
+b) Drill
+c) Oozie
+d) Hive
+Answer:d
+Explanation:Hive Queries are translated to MapReduce jobs to exploit the scalability of MapReduce.
+10.	______ is a framework for performing remote procedure calls and data serialization.
+a) Drill
+b) BigTop
+c) Avro
+d) Chukwa
+Answer:c
+Explanation:In the context of Hadoop, Avro can be used to pass data from one program or language to another.
