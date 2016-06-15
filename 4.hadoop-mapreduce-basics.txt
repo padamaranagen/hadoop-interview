@@ -1,0 +1,81 @@
+#MAPREDUCE BASICS
+-----------------------
+1. A ________ node acts as the Slave and is responsible for executing a Task assigned to it by the JobTracker.
+a) MapReduce
+b) Mapper
+c) TaskTracker
+d) JobTracker
+Answer:c
+Explanation:TaskTracker receives the information necessary for execution of a Task from JobTracker, Executes the Task, and Sends the Results back to JobTracker.
+
+2. Point out the correct statement :
+a) MapReduce tries to place the data and the compute as close as possible
+b) Map Task in MapReduce is performed using the Mapper() function
+c) Reduce Task in MapReduce is performed using the Map() function
+d) All of the mentioned
+Answer:a
+Explanation:This feature of MapReduce is “Data Locality”.
+
+3. ___________ part of the MapReduce is responsible for processing one or more chunks of data and producing the output results.
+a) Maptask
+b) Mapper
+c) Task execution
+d) All of the mentioned
+Answer:a
+Explanation:Map Task in MapReduce is performed using the Map() function.
+
+4. _________ function is responsible for consolidating the results produced by each of the Map() functions/tasks.
+a) Reduce
+b) Map
+c) Reducer
+d) All of the mentioned
+Answer:a
+Explanation:Reduce function collates the work and resolves the results.
+
+5. Point out the wrong statement :
+a) A MapReduce job usually splits the input data-set into independent chunks which are processed by the map tasks in a completely parallel manner
+b) The MapReduce framework operates exclusively on pairs
+c) Applications typically implement the Mapper and Reducer interfaces to provide the map and reduce methods
+d) None of the mentioned
+Answer:d
+Explanation:The MapReduce framework takes care of scheduling tasks, monitoring them and re-executes the failed tasks.
+
+6. Although the Hadoop framework is implemented in Java , MapReduce applications need not be written in :
+a) Java
+b) C
+c) C#
+d) None of the mentioned
+Answer:a
+Explanation:Hadoop Pipes is a SWIG- compatible C++ API to implement MapReduce applications (non JNITM based).
+
+7. ________ is a utility which allows users to create and run jobs with any executables as the mapper and/or the reducer.
+a) Hadoop Strdata
+b) Hadoop Streaming
+c) Hadoop Stream
+d) None of the mentioned
+Answer:b
+Explanation:Hadoop streaming is one of the most important utilities in the Apache Hadoop distribution.
+
+8. __________ maps input key/value pairs to a set of intermediate key/value pairs.
+a) Mapper
+b) Reducer
+c) Both Mapper and Reducer
+d) None of the mentioned
+Answer:a
+Explanation:Maps are the individual tasks that transform input records into intermediate records.
+
+9. The number of maps is usually driven by the total size of :
+a) inputs
+b) outputs
+c) tasks
+d) None of the mentioned
+Answer:a
+Explanation:Total size of inputs means total number of blocks of the input files.
+
+10. _________ is the default Partitioner for partitioning key space.
+a) HashPar
+b) Partitioner
+c) HashPartitioner
+d) None of the mentioned
+Answer:c
+Explanation: The default partitioner in Hadoop is the HashPartitioner which has a method called getPartition to partition.
